@@ -127,7 +127,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GameLogic.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Networking.cpp" />
+    <ClCompile Include="Rendering.cpp" />
+    <ClCompile Include="xyz.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameLogic.h" />
+    <ClInclude Include="Networking.h" />
+    <ClInclude Include="Rendering.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
